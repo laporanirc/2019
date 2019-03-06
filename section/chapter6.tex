@@ -7,7 +7,7 @@
 % Please add the following required packages to your document preamble:
 % \usepackage[normalem]{ulem}
 % \useunder{\uline}{\ul}{}
-\begin{table}[]
+\begin{table}[htp]
 \caption{Laporan Harian Tanggal 25 Februari 2018}
 \label{tab:lh250219}
 \begin{tabular}{|l|l|l|}
@@ -24,10 +24,7 @@
 \end{tabular}
 \end{table}
 
-% Please add the following required packages to your document preamble:
-% \usepackage[normalem]{ulem}
-% \useunder{\uline}{\ul}{}
-\begin{table}[]
+\begin{table}[htp]
 \caption{Laporan Harian Tanggal 26 Februari 2018}
 \label{tab:lh260219}
 \begin{tabular}{|l|l|l|}
@@ -44,7 +41,7 @@
 \end{tabular}
 \end{table}
 
-\begin{table}[]
+\begin{table}[htp]
 \caption{Laporan Harian Tanggal 27 Februari 2019}
 \label{tab:lh270219}
 \begin{tabular}{|l|l|l|}
@@ -61,7 +58,7 @@
 \end{tabular}
 \end{table}
 
-\begin{table}[]
+\begin{table}[htp]
 \caption{Laporan Harian Tanggal 28 Februari 2019}
 \label{tab:lh280219}
 \begin{tabular}{|l|l|l|}
@@ -80,7 +77,7 @@
 \end{tabular}
 \end{table}
 
-\begin{table}[]
+\begin{table}[htp]
 \caption{Laporan Harian Tanggal 1 Maret 2019}
 \label{tab:lh010319}
 \begin{tabular}{|l|l|l|}
@@ -99,7 +96,7 @@
 
 \subsection{Laporan Harian Pekan ke-2}
 
-\begin{table}[]
+\begin{table}[htp]
 \caption{Laporan Harian Tanggal 4 Maret 2019}
 \label{tab:lh040319}
 \begin{tabular}{|l|l|l|}
@@ -115,7 +112,7 @@
 \end{tabular}
 \end{table}
 
-\begin{table}[]
+\begin{table}[htp]
 \caption{Laporan Harian Tanggal 5 Maret 2019}
 \label{tab:lh050319}
 \begin{tabular}{|l|l|l|}
@@ -132,11 +129,29 @@
 \end{tabular}
 \end{table}
 
+\begin{table}[htp]
+\caption{Laporan Harian Tanggal 6 Maret 2019}
+\label{tab:lh060319}
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{No} & \multicolumn{1}{c|}{\textbf{Kategori}} & \multicolumn{1}{c|}{\textbf{Keterangan}} \\ \hline
+1 & Dedikasi & BukuInformatika/flask \#16 \\ \hline
+2 & Produktifitas & \begin{tabular}[c]{@{}l@{}}a. Membimbing Fadila, Lusia, dan Rahmi pada mata kuliah\\Kecerdasan Buatan.\end{tabular} \\
+ &  & \begin{tabular}[c]{@{}l@{}}b. Membuat form penilaian kecerdasan buatan di google docs\\untuk kelas 3C.\end{tabular} \\
+ &  & \begin{tabular}[c]{@{}l@{}}c. Melakukan penilaian tugas hari ke-1 pekan ke-2 kecerdasan buatan\\atas nama Fadila, Lusia, dan Rahmi di kelas 3C.\end{tabular} \\ \hline
+3 & Integritas & able to merge/has no conflict \\ \hline
+4 & Disiplin & Jam Datang : 07.32 WIB \\
+ &  & Jam Pulang : 15.00 WIB \\ \hline
+5 & Loyalitas & \begin{tabular}[c]{@{}l@{}}Menyapu, membersihkan dan merapihkan meja,\\ juga mengecek AC di pagi dan sore hari.\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+
+
 \section{Penilaian Mingguan}
 
 \subsection{Penilaian Mingguan Pekan ke-1}
 
-\begin{table}[h]
+\begin{table}[htp]
 \centering
 \caption{Nilai Minggu ke-1}
 \label{tab:nm01}
@@ -154,11 +169,11 @@
 
 \subsection{Penilaian Mingguan Pekan ke-2}
 
-\begin{table}[h]
+\begin{table}[htp]
 \centering
-\caption{Nilai Minggu ke-2 (Update 4/3/2019)}
+\caption{Nilai Minggu ke-2 (Update 6/3/2019)}
 \label{tab:nm02}
-\begin{tabular}{|c|c|c|}
+\begin{tabular}{|c|c|c|p{\textwidth}|}
 \hline
 \textbf{No} & \textbf{Kategori} & \textbf{Poin} \\ \hline
 1. & Dedikasi & 1 \\ \hline
@@ -169,3 +184,16 @@
  & \textbf{Total Poin} & 5 \\ \hline
 \end{tabular}
 \end{table}
+
+%\begin{table}
+%\begin{center}
+%\caption{This is Caption}
+%\begin{tabularx}{\textwidth}{|l|l|X|}
+%\hline % untuk bikin garis horizontal
+%\multicolumn{1}{|c|}{\multirow{5}{*}{Test Kolom Pertama}}
+%& \multicolumn{1}{|c|}{\multirow{5}{*}{\parbox{1cm}{Test kolom kedua}}} % wrap text di dalam tabel dengan menggunakan command \parbox{}{}
+%& Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. Test kolom ketiga. \\ % wrap text di dalam table dengan menggunakan option |X| untuk spec \begin{tabular}{}{}, yang akan mengjadikan kolom tabel sampai maximum margin, kemudian text otomatis wrap. |X| juga mengizinkan kita untuk menggunakan \begin{equation} di dalam cell tabel.
+%\hline
+%\end{tabularx}
+%\end{center}
+%\end{table}
